@@ -5,7 +5,7 @@
 ## TL;DR;
 
 ```console
-$ helm install incubator/grafana
+$ helm install stable/grafana
 ```
 
 ## Installing the Chart
@@ -13,8 +13,7 @@ $ helm install incubator/grafana
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
-$ helm install --name my-release incubator/grafana
+$ helm install --name my-release stable/grafana
 ```
 
 ## Uninstalling the Chart
